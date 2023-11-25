@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesingTemplateMethod", "DesingTemplateMethod\DesingTemplateMethod.csproj", "{4D15B1E7-945E-4F5D-9B04-9320B9AE47FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignTemplateMethod", "DesignTemplateMethod\DesignTemplateMethod.csproj", "{4D15B1E7-945E-4F5D-9B04-9320B9AE47FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
