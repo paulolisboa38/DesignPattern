@@ -22,7 +22,7 @@ namespace DesingTemplateMethod
         public void Work()
         {
             Console.WriteLine
-                (" Responding to emergencies, extinguishing fires, and ensuring public safety..");
+                (" Responding to emergencies, extinguishing fires, and ensuring public safety...");
         }
 
         public void ReturnToHome()
