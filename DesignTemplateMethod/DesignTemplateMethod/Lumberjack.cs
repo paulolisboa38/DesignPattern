@@ -2,42 +2,22 @@
 
 namespace DesignTemplateMethod
 {
-    internal class Lumberjack
+    internal class Lumberjack : Worker
     {
-        public void GetUp()
+        protected override void GoToWork()
         {
-            Console.WriteLine(" Getting out of bed...");
+            Console.WriteLine(" Driving the truck to the forest.");
         }
 
-        public void EatBreakfast()
-        {
-            Console.WriteLine(" Having breakfast...");
-        }
-
-        public void GoToWork()
-        {
-            Console.WriteLine(" Going to work...");
-        }
-
-        public void Work()
+        protected override void Work()
         {
             Console.WriteLine
                 (" Cutting down trees, preparing and transporting logs...");
         }
 
-        public void ReturnToHome()
+        protected override void Relax()
         {
-            Console.WriteLine(" Returning home...");
-        }
-
-        public void Relax()
-        {
-            Console.WriteLine(" Relaxing...");
-        }
-
-        public void Sleep()
-        {
-            Console.WriteLine(" Sleeping...");
+            Console.WriteLine(" Enjoying fishing by the lake and woodworking.");
         }
     }
 }
