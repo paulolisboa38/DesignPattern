@@ -2,7 +2,7 @@
 
 namespace DesignTemplateMethod
 {
-    internal class Worker
+    abstract class Worker
     {
         // Template method
         public void DailyRoutine()
@@ -16,6 +16,16 @@ namespace DesignTemplateMethod
             Sleep();
         }
 
+        // Hook Methods
+        protected virtual void GoToWork()
+        {
+            Console.WriteLine(" Going to work by bus.");
+        }
+
+        protected abstract void Work();
+        protected abstract void Relax();
+
+        // Concrete Methods
         protected void GetUp()
         {
             Console.WriteLine(" Getting out of bed...");
@@ -26,24 +36,9 @@ namespace DesignTemplateMethod
             Console.WriteLine(" Having breakfast...");
         }
 
-        protected void GoToWork()
-        {
-            Console.WriteLine(" Going to work...");
-        }
-
-        protected void Work()
-        {
-            Console.WriteLine(" Working...");
-        }
-
         protected void ReturnToHome()
         {
             Console.WriteLine(" Returning home...");
-        }
-
-        protected void Relax()
-        {
-            Console.WriteLine(" Relaxing...");
         }
 
         protected void Sleep()
