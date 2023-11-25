@@ -2,42 +2,22 @@
 
 namespace DesignTemplateMethod
 {
-    internal class FireFighter
+    internal class FireFighter : Worker
     {
-        public void GetUp()
+        protected override void GoToWork()
         {
-            Console.WriteLine(" Getting out of bed...");
+            Console.WriteLine(" Driving the firetruck to the station.");
         }
 
-        public void EatBreakfast()
-        {
-            Console.WriteLine(" Having breakfast...");
-        }
-
-        public void GoToWork()
-        {
-            Console.WriteLine(" Going to work...");
-        }
-
-        public void Work()
+        protected override void Work()
         {
             Console.WriteLine
-                (" Responding to emergencies, extinguishing fires, and ensuring public safety...");
+                (" Responding to emergencies, extinguishing fires, and ensuring public safety");
         }
 
-        public void ReturnToHome()
+        protected override void Relax()
         {
-            Console.WriteLine(" Returning home...");
-        }
-
-        public void Relax()
-        {
-            Console.WriteLine(" Relaxing...");
-        }
-
-        public void Sleep()
-        {
-            Console.WriteLine(" Sleeping...");
+            Console.WriteLine(" Working out at the gym and reading.");
         }
     }
 }
