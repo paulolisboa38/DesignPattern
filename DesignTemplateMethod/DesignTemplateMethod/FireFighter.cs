@@ -12,7 +12,7 @@ namespace DesignTemplateMethod
         protected override void Work()
         {
             Console.WriteLine
-                (" Responding to emergencies, extinguishing fires, and ensuring public safety");
+                (" Responding to emergencies, extinguishing fires, and ensuring public safety.");
         }
 
         protected override void Relax()
