@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesingTemplateMethod
+namespace DesignTemplateMethod
 {
     internal class Postman
     {

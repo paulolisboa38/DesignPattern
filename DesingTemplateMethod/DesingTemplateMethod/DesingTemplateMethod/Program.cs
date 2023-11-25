@@ -1,4 +1,4 @@
-﻿namespace DesingTemplateMethod
+﻿namespace DesignTemplateMethod
 {
     internal class Program
     {
