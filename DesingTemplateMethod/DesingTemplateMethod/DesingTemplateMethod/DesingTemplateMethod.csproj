@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="FireFighter.cs" />
     <Compile Include="Lumberjack.cs" />
+    <Compile Include="Manager.cs" />
     <Compile Include="Postman.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
